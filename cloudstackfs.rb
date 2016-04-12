@@ -123,9 +123,8 @@ class CloudStackDir
 
 end
 
-Process.daemon
-
 # Usage: #{$0} mountpoint [mount_options]
 FuseFS.main() { |options|
+  Process.daemon(true)
   CloudStackDir.new
 }
