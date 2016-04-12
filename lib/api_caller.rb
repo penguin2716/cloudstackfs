@@ -4,7 +4,7 @@ require 'pry'
 require 'digest/hmac'
 require 'cgi'
 require 'base64'
-require File.expand_path(File.join(File.dirname(__FILE__), 'config'))
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'config'))
 require File.expand_path(File.join(File.dirname(__FILE__), 'rexml_hash'))
 
 class APICaller

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'rfusefs'
-require File.expand_path(File.join(File.dirname(__FILE__), 'api_caller'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'lib', 'api_caller'))
 
 class CloudStackDir
 
