@@ -107,3 +107,4 @@ build-iPhoneSimulator/
 .rvmrc
 
 /cache/*.html
+Gemfile.lock
