@@ -81,7 +81,7 @@ diskkbsread   isdynamicallyscalable  rootdevicetype   zonename
 diskkbswrite  memory                 securitygroup/
 $ cat testvm01/created
 2016-03-31T04:05:37+0900
-% cat testvm01/nic/561833f1-d024-4539-8e97-f306b7610760/ipaddress
+$ cat testvm01/nic/561833f1-d024-4539-8e97-f306b7610760/ipaddress
 10.40.5.202
 ```
 
