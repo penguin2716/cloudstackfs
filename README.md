@@ -4,11 +4,11 @@ This is a FUSE file system for CloudStack VM management.
 # Usage
 for mount:
 ```
-./cloudstackfs.rb /path/to/mount
+$ ./cloudstackfs.rb /path/to/mount
 ```
 for unmount:
 ```
-fusermount -u /path/to/mount
+$ fusermount -u /path/to/mount
 ```
 
 The structure of the mount path is like VM deployment wizard of CloudStack. If your CloudStack has two zones named `Advanced Zone` and `Basic Zone`, the mount path contains two directories.
